@@ -51,7 +51,7 @@ function Menu(props: MenuProps): JSX.Element {
           <div className="menuInnerBox">
             <div className="leftMenuLogo">
               <div className="logo" />
-              <span className="version">1.0.0</span>
+              <span className="version">0.0.1</span>
             </div>
             <div className="menuitemBox">
               {menulist.map((item: any, index: number) => (

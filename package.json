@@ -1,16 +1,16 @@
 {
   "name": "light-design",
-  "author": "style'me",
+  "author": "djonce",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.0.1",
   "type": "module",
-  "main": "./dist/light-design-rt.umd.js",
-  "module": "./dist/light-design-rt.es.js",
+  "main": "./dist/light-design.umd.js",
+  "module": "./dist/light-design.es.js",
   "typings": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/light-design-rt.es.js",
-      "require": "./dist/light-design-rt.umd.js"
+      "import": "./dist/light-design.es.js",
+      "require": "./dist/light-design.umd.js"
     }
   },
   "scripts": {
@@ -19,7 +19,7 @@
     "build:html": "vite build --config ./build/build.ts",
     "preview": "vite preview"
   },
-  "description": "light-design-rt",
+  "description": "light-design",
   "keywords": [
     "react"
   ],
@@ -27,9 +27,9 @@
     "dist/*"
   ],
   "license": "MIT",
-  "homepage": "https://light.19ba.cn/",
+  "homepage": "https://lightd.19ba.cn/",
   "bugs": {
-    "url": "https://light.19ba.cn/",
+    "url": "https://lightd.19ba.cn/",
     "email": "djonce@qq.com"
   },
   "dependencies": {
