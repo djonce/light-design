@@ -92,7 +92,7 @@ export default function Index() {
             <Button
               size="large"
               onClick={() =>
-                window.open('https://github.com/Ningstyle/lightdui-react')
+                window.open('https://github.com/djonce/light-design')
               }
               style={{ width: '100px' }}
             >
@@ -142,7 +142,7 @@ export default function Index() {
                 <div className="itemDesc">
                   <p>更友好的渲染</p>
                   <div className="itemdescContent">
-                    懂你的不只有知己，还有lightd-ui-react！
+                    懂你的不只有知己，还有light design！
                   </div>
                 </div>
               </div>
@@ -150,9 +150,7 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div className="footerInner">
-        Copyright © 2020. All Rights Reserved. 沪ICP备2020028381号-1
-      </div>
+      <div className="footerInner">Copyright © 2022. All Rights Reserved.</div>
     </div>
   );
 }

@@ -13,9 +13,9 @@ export default function TablePage() {
       <Title title="Table" notes="表格" desc="用于展示多条结构类似的数据" />
       <InstanceView
         subtitle="基本使用"
-        subnotes=""
+        subNotes=""
         demo={<Demo1 />}
-        subdesc="基础的表格展示用法"
+        subDesc="基础的表格展示用法"
         path="table/demo1"
       />
     </>

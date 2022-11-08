@@ -16,6 +16,7 @@ export default function CodeView(props: codeViewProps) {
   const filePath = `/src/demo/${path}.tsx?raw`;
   const filePath1 = `/src/demo/${path}.tsx`;
   const isDev = import.meta.env.MODE === 'development';
+
   useEffect(() => {
     async function getContent() {
       if (isDev) {
@@ -28,6 +29,7 @@ export default function CodeView(props: codeViewProps) {
     }
     getContent();
   }, [filePath, filePath1]);
+
   useEffect(() => {
     // 配置 highlight.js
     hljs.configure({
@@ -57,6 +59,7 @@ export default function CodeView(props: codeViewProps) {
       });
     }, 500);
   }, []);
+
   const copyCode = () => {
     inputRef.current.value = code;
     inputRef.current.select();
@@ -67,6 +70,7 @@ export default function CodeView(props: codeViewProps) {
       Message.success('复制成功');
     }
   };
+
   return (
     <>
       <div
@@ -97,6 +101,7 @@ export default function CodeView(props: codeViewProps) {
     </>
   );
 }
+
 CodeView.defaultProps = {
   showView: true,
   showCopy: true,

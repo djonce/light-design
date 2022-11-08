@@ -11,19 +11,23 @@ import Demo2 from '../../demo/Input/demo2';
 export default function InputPage() {
   return (
     <div>
-      <Title title="Input" notes="输入框" desc="网页常用 Input 按钮，常用于响应一个事件或处理某个逻辑。" />
+      <Title
+        title="Input"
+        notes="输入框"
+        desc="网页常用 Input 按钮，常用于响应一个事件或处理某个逻辑。"
+      />
       <InstanceView
         subtitle="基本使用"
-        subnotes=""
+        subNotes=""
         demo={<Demo1 />}
-        subdesc="Input 按钮的基本使用"
+        subDesc="Input 按钮的基本使用"
         path="Input/demo1"
       />
       <InstanceView
         subtitle="密码输入框"
-        subnotes=""
+        subNotes=""
         demo={<Demo2 />}
-        subdesc="密码输入框"
+        subDesc="密码输入框"
         path="Input/demo2"
       />
     </div>

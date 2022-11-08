@@ -2,20 +2,18 @@
   <img src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" width="100"/>
   <h1 style="border-bottom:0">
     <p>light-design-react组件库</p>
-    <p style="font-size:20px">一套适合开发者使用的轻量级UI组件库，完美支持React18+TS+Vite</p>
+    <p style="font-size:20px">一套适合开发者使用的轻量级UI组件库</p>
   </h1>
 </div>
 <br/>
-
-官网主页: [light-design-react 使用文档](https://lightd.19ba.cn/)
 
 ---
 
 ### 快速使用
 
 ```
-npm install  lightd
-cnpm install  lightd
+npm install lightd
+cnpm install lightd
 yarn add lightd
 ```
 
@@ -45,11 +43,6 @@ export default function Demo() {
 ## lightd 贡献指南
 
 首先非常感谢您能选择使用 _lightd_，_lightd_ 是基于 _React+Ts_ 开发，并集成 vite 构建；_lightd_ 旨在秉承数据驱动视图，力求更小的体积、更快的相应、更强的拓展性、更完美的支持、更友好的渲染。任何一个开源库都离不开大家的共同贡献和维护，如果您愿意参与贡献，请阅读以下内容。
-
-### 问题反馈
-
-- 如果您在使用中存在 _bug_ 或者有更超前的思想及解决方案，不限于新的组件、新的模式、新的思想、新的方案，您可以在 _Issue_ 提交问题，我们会定时进行维护并回复。
-- 或您可发送邮件至 _djonce.qq.com_ 来反馈或参与贡献。
 
 ### 分支规范
 

@@ -16,47 +16,51 @@ import Api from '../../demo/button/api';
 export default function ButtonPage() {
   return (
     <>
-      <Title title="Button" notes="按钮" desc="网页常用 button 按钮，常用于响应一个事件或处理某个逻辑。" />
+      <Title
+        title="Button"
+        notes="按钮"
+        desc="网页常用 button 按钮，常用于响应一个事件或处理某个逻辑。"
+      />
       <InstanceView
         subtitle="基本使用"
-        subnotes=""
+        subNotes=""
         demo={<Demo1 />}
-        subdesc="Button 按钮的基本使用。包含八种类型：默认按钮、主要按钮、成功按钮、警告按钮、失败按钮、信息按钮、链接按钮、文本按钮。"
+        subDesc="Button 按钮的基本使用。包含八种类型：默认按钮、主要按钮、成功按钮、警告按钮、失败按钮、信息按钮、链接按钮、文本按钮。"
         path="button/demo1"
       />
       <InstanceView
         subtitle="圆角按钮"
-        subnotes=""
+        subNotes=""
         demo={<Demo2 />}
-        subdesc="按钮的圆角状态。"
+        subDesc="按钮的圆角状态。"
         path="button/demo2"
       />
       <InstanceView
         subtitle="按钮尺寸"
-        subnotes=""
+        subNotes=""
         demo={<Demo3 />}
-        subdesc="通过 size 属性可以设置按钮的不同尺寸。包含三种：大（large）、中（medium）、小（small）。"
+        subDesc="通过 size 属性可以设置按钮的不同尺寸。包含三种：大（large）、中（medium）、小（small）。"
         path="button/demo3"
       />
       <InstanceView
         subtitle="图标按钮"
-        subnotes=""
+        subNotes=""
         demo={<Demo4 />}
-        subdesc="带图标的按钮可增强辨识度（有文字）或节省空间（无文字）。"
+        subDesc="带图标的按钮可增强辨识度（有文字）或节省空间（无文字）。"
         path="button/demo4"
       />
       <InstanceView
         subtitle="加载中状态"
-        subnotes=""
+        subNotes=""
         demo={<Demo5 />}
-        subdesc="添加 loading 属性即可让按钮处于加载状态。后两个按钮可通过点击预览加载中状态。"
+        subDesc="添加 loading 属性即可让按钮处于加载状态。后两个按钮可通过点击预览加载中状态。"
         path="button/demo5"
       />
       <InstanceView
         subtitle="禁用状态"
-        subnotes=""
+        subNotes=""
         demo={<Demo6 />}
-        subdesc="添加 disabled 属性即可让按钮处于不可用状态。"
+        subDesc="添加 disabled 属性即可让按钮处于不可用状态。"
         path="button/demo6"
       />
       <Api />

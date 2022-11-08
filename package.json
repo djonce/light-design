@@ -1,22 +1,22 @@
 {
-  "name": "light-design",
+  "name": "lightd",
   "author": "djonce",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "main": "./dist/light-design.umd.js",
-  "module": "./dist/light-design.es.js",
-  "typings": "./dist/index.d.ts",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "typings": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/light-design.es.js",
-      "require": "./dist/light-design.umd.js"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
     }
   },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "build:html": "vite build --config ./build/build.ts",
+    "build:html": "vite build --config ./scripts/build.ts",
     "preview": "vite preview"
   },
   "description": "light-design",
